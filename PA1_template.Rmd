@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "PA1_template"
 author: "Patricialrt"
 date: "10 Aug 2015"
@@ -198,3 +199,29 @@ names(avg.intervall2) <- c("interval", "day", "steps")
 library(lattice)
 xyplot(avg.intervall2$steps ~ avg.intervall2$interval | avg.intervall2$day, type= "l", ylab="Average Number of Steps", layout = c(1,2), col="red")
 ```
+=======
+title: "Reproducible Research: Peer Assessment 1"
+output: 
+  html_document:
+    keep_md: true
+---
+
+
+## Loading and preprocessing the data
+
+
+
+## What is mean total number of steps taken per day?
+
+
+
+## What is the average daily activity pattern?
+
+
+
+## Imputing missing values
+
+
+
+## Are there differences in activity patterns between weekdays and weekends?
+>>>>>>> 80edf39c3bb508fee88e3394542f967dd3fd3270
